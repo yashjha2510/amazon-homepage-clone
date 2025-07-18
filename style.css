@@ -1,0 +1,218 @@
+* {
+    margin: 0%;
+    font-family: Arial, Helvetica, sans-serif;
+    border: border-box;
+}
+
+.navbar {
+    height: 60px;
+    background-color: #0f1111;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+
+.nav-logo {
+    height: 40px;
+    width: 100px;
+}
+
+.border {
+    border: 1px solid transparent;
+}
+.border:hover {
+    border: 1px solid white;
+}
+
+/* box2 */
+.add-first {
+    font-size: 0.8rem;
+    color: #cccccc;
+    margin-left: 15px;
+}
+
+.add-sec {
+    font-size: 1rem;
+    margin-left: 3px;
+}
+
+.add-icon {
+    display: flex;
+    align-items: center;
+}
+
+/* box 3 */
+.nav-search {
+    display: flex;
+    background-color:#0f1111;
+    width: 600px;
+    height: 40px;
+    border-radius: 4px;
+    justify-content: space-evenly;
+    border: 3px solid transparent;
+}
+
+.nav-search:hover {
+    border: 3px solid orange;
+    border-radius: 4px;
+    background-color: orange;
+    /* box-sizing: border-box; */
+}
+
+.search-select {
+    background-color: #e6e6e6;
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+    width: 52px;
+    height: 40px;
+    text-align: center;
+    border: none;
+}
+
+.search-input {
+    width: 100%;
+    font-size: 1rem;
+    border: none;
+}
+
+.search-icon {
+    width: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.5rem;
+    background-color: #febd68;
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 4px;
+    color: #0f1111;
+}
+
+/* box 4 */
+.nav-up {
+    font-size: 0.8rem;
+    margin-left: 3px;
+}
+
+.nav-down {
+    font-size: 0.85rem;
+    font-weight: 700;
+    background-color: #0f1111;
+    color: white;
+    border: none;
+}
+
+/* box 5 */
+.nav-cart i {
+    font-size: 35px;
+}
+.nav-cart {
+    font-weight: 700;
+    font-size: 0.85rem;
+}
+
+/* panel */
+.panel {
+    background-color: #222f3d;
+    height: 40px;
+    color: white;
+    display: flex;
+    align-items: center;
+}
+
+.panel a {
+    color: white;
+    text-decoration: none;
+    /* height: 40px; */
+}
+
+.panel .panel-all {
+    font-size: 0.85rem;
+    font-weight: 700;
+    margin-right: 10px;
+    margin-left: 10px;
+    display: flex;
+    align-items: center;
+}
+
+.panel i {
+    font-size: 1.2rem;
+}
+
+.panel .panel-item {
+    margin-left: 15px;
+}
+
+/* hero section */
+.hero-section {
+    height: 350px; /* jitna visible chahiye utna height set karo */
+    overflow: hidden; /* baaki image crop ho jayegi */
+    position: relative;
+}
+
+.hero-section img{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+}
+
+.hero-msg {
+    background-color: white;
+    color: black;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 0.85rem;
+    margin-left: 30px;
+    margin-right: 30px;
+    position: relative;
+    top: -310px;
+}
+
+.hero-msg a {
+    text-decoration: none;
+    color: #2162a1;
+}
+
+.hero-msg a:hover {
+    text-decoration: underline;
+    color: #0c3353;
+}
+
+/* shop section */
+.shop-section {
+    display: flex;
+    justify-content: space-evenly;
+    position: relative;
+    top: -50px;
+    background-color: #c19cdb;
+}
+
+.shop-box {
+    background-color: white;
+    height: 300px;
+    width: 22%;
+    /* padding: 25px 25px 25px 25px; */
+    /* display: flex; */
+}
+
+.shop-box h2 {
+    margin-top: 10px;
+    margin-left: 23px;
+}
+
+.shop-box img {
+    height: 250px;
+    width: 250px;
+    margin-left: 23px;
+    margin-top: 20px;
+}
+
+.shop-box a {
+    color: #2162a1;
+    text-decoration: none;
+}
+
