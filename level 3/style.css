@@ -1,0 +1,65 @@
+/* units in CSS */
+/* #box1 {
+    height: 100px;
+    width: 200px;
+    background-color: green;
+    font-size: 20px;
+}
+#box2 {
+    height: 50px;
+    width: 30%;
+    background-color: yellow;
+    font-size: 2em;
+    width: 5rem;
+    height: 50vh;
+} */
+
+div {
+    height: 100px;
+    width: 100px;
+    background-color: aqua;
+    border: 2px solid black;
+    display: inline-block;
+}
+ /*
+#box1 {
+    position: static;
+}
+
+#box2 {
+    position: relative;
+    top: 20px;
+    left: 10px;
+}
+
+#box3 {
+    position: absolute;
+    top: 100px;
+    left: 300px;
+}
+
+#box4 {
+    position: fixed;
+    left: 20px;
+    top: 100px;
+    z-index: -1;
+}
+
+#box5 {
+    position: sticky;
+    top: 0px;
+    left: 100px;
+}
+p {
+    font-size: 25px;
+} */
+
+body {
+    background-image: url("human_bulb.jpeg");
+    background-size: cover;
+}
+
+#box1 {
+    background-image: url("human_bulb.jpeg");
+    background-size: cover;
+}

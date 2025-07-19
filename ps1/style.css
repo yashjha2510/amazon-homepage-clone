@@ -1,0 +1,45 @@
+#box {
+    background-color: blue;
+}
+
+.heading {
+    color: red;
+}
+
+button {
+    color: green;
+}
+
+p {
+    text-align: center;
+}
+
+/* h1 {
+    text-align: center;
+    text-decoration: underline;
+    text-decoration: red wavy underline;
+} */
+
+a {
+    text-decoration: none;
+}
+
+#h1 {
+    font-weight: bolder;
+}
+#h2 {
+    font-weight: bold;
+}
+#h3 {
+    font-weight: normal;
+}
+#h4 {
+    font-weight: lighter;
+}
+
+#para1 {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    line-height: 20px;
+    text-transform: uppercase;
+}

@@ -1,0 +1,14 @@
+div {
+    height: 300px;
+    width: 300px;
+    background-image: url(human_bulb.jpeg);
+    background-size: cover;
+    position: fixed;
+    right: 50px;
+    top: 100px;
+    border-radius: 5%;
+}
+
+p {
+    font-size: 35px;
+}

@@ -1,0 +1,21 @@
+div {
+    height: 100px;
+    width: 100px;
+    background-color: cadetblue;
+}
+
+@media (width: 600px) {
+    div {
+        background-color: red;
+    }
+}
+@media (min-width: 600px) {
+    div {
+        background-color: green;
+    }
+}
+@media (min-width: 600px) and (max-width: 800px) {
+    div {
+        background-color: pink;
+    }
+}

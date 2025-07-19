@@ -1,0 +1,25 @@
+#box {
+    height: 300px;
+    width: 100px;
+    /* background-color: black; */
+    border-style: double;
+}
+
+#red {
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    background-color: red;
+}
+#yellow {
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    background-color: rgb(255, 255, 0);
+}
+#green {
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    background-color: green;
+}

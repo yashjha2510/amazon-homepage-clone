@@ -1,0 +1,52 @@
+* {
+    padding: 0%;
+    margin: 0%;
+}
+
+nav {
+    background-color: #0f1111;
+    height: 60px;
+
+}
+
+button {
+    background-color: #f08804;
+    color: white;
+}
+
+a {
+    color: white;
+    margin-right: 200px;
+    text-decoration: none;
+}
+
+#amazon {
+    color: #f08804;
+    font-size: 25px;
+}
+.contentdiv {
+    height: 100px;
+    width: 100px;
+    border: 2px solid black;
+}
+
+#div1 {
+    background-color: rgba(0, 255, 255, 0.5);
+}
+#div2 {
+    background-color: rgba(127, 255, 212, 0.5);
+}
+#div3 {
+    background-color: rgba(173, 216, 230, 0.5);
+}
+
+#content {
+    height: 500px;
+}
+footer {
+    text-align: center;
+    color: white;
+    background-color: #0f1111;
+    height: 25px;
+}
+
